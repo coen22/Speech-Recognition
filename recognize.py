@@ -23,7 +23,7 @@ from tempfile import NamedTemporaryFile
 
 lm_name = "pdelobelle/robbert-v2-dutch-base"
 tokenizer_name = "facebook/hubert-large-ls960-ft"
-model_name = "models/checkpoint-166980-aug-rev1"
+model_name = "coen22/Speech-Recognition-AWO-L"
 
 dirname = os.path.dirname(__file__)
 model_path = os.path.join(dirname, model_name)
